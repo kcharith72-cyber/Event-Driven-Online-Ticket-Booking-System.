@@ -17,7 +17,7 @@ event-driven-ticket-booking/
 │   ├── src/main/java/...
 │   └── src/main/resources/
 │
-├── booking-service/                   # Ticket Booking Microservice
+├── booking-service/                   # Ticket Booking Microservices
 │   ├── pom.xml
 │   ├── src/main/java/...
 │   └── src/main/resources/
