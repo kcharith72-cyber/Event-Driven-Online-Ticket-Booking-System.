@@ -1,3 +1,6 @@
+## 📁 Project Structure
+
+```text
 event-driven-ticket-booking/
 ├── README.md                          # Project overview and setup guide
 ├── pom.xml                            # Parent Maven POM with dependency management
@@ -17,7 +20,7 @@ event-driven-ticket-booking/
 │   ├── src/main/java/...
 │   └── src/main/resources/
 │
-├── booking-service/                   # Ticket Booking Microservices
+├── booking-service/                   # Ticket Booking Microservice
 │   ├── pom.xml
 │   ├── src/main/java/...
 │   └── src/main/resources/
@@ -63,8 +66,8 @@ event-driven-ticket-booking/
 ├── .github/workflows/                 # GitHub Actions CI/CD pipeline
 │   └── build-and-test.yml
 │
-├── docs/                              # Project documentation
-│   ├── architecture.md
-│   ├── event-flow.md
-│   ├── kafka-topics.md
-│   └── api-specs.md
+└── docs/                              # Project documentation
+    ├── architecture.md
+    ├── event-flow.md
+    ├── kafka-topics.md
+    └── api-specs.md
